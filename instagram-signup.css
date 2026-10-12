@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.signup-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 35px 40px;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.facebook-btn,
+.signup-btn {
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook-btn {
+    background-color: #1877f2;
+    margin-bottom: 20px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.or span {
+    height: 1px;
+    background-color: #dbdbdb;
+    flex: 1;
+}
+
+.or p {
+    color: #737373;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #999;
+}
+
+.signup-btn {
+    background-color: #0095f6;
+    margin-top: 8px;
+}
+
+.signup-btn:hover {
+    background-color: #1877f2;
+}
+
+.terms {
+    color: #737373ba;
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-box a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.more{margin-top: 150px;
+font-size: 15px;
+color: black;
+}
